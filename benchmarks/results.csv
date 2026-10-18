@@ -1,0 +1,4 @@
+n,prime_count,baseline_ms_min,baseline_ms_max,optimized_ms_min,optimized_ms_max,speedup_per_round_median,speedup_min,speedup_max,peak_reduction_percent,baseline_peak_bytes,optimized_peak_bytes
+100000,9592,9.417,12.477,1.957,3.059,4.343,4.095,4.935,62.93,1190672,441416
+500000,41538,72.116,108.779,14.083,15.572,5.469,5.149,6.967,66.01,5678832,1930024
+1000000,78498,157.385,248.278,28.829,48.658,4.496,4.18,4.937,67.29,11143312,3645048

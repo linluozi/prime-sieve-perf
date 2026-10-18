@@ -1,0 +1,11 @@
+[project]
+name = "prime-sieve-perf"
+version = "1.0.0"
+description = "Odd-only bytearray sieve: 4x faster than a full flag table"
+requires-python = ">=3.9"
+
+[tool.ruff]
+target-version = "py39"
+line-length = 88
+lint.select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM", "RUF", "ANN", "ARG", "RET"]
+lint.ignore = ["ANN401"]

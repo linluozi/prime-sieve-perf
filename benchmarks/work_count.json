@@ -1,0 +1,29 @@
+{
+  "measured_with": "sys.settrace line events",
+  "rows": [
+    {
+      "n": 100000,
+      "baseline_python_line_events": 686541,
+      "optimized_python_line_events": 642,
+      "ratio": 1069.3785046728972,
+      "baseline_events_per_output_prime": 71.57433277731442,
+      "optimized_events_per_output_prime": 0.06693077564637198
+    },
+    {
+      "n": 500000,
+      "baseline_python_line_events": 3568671,
+      "optimized_python_line_events": 1339,
+      "ratio": 2665.1762509335326,
+      "baseline_events_per_output_prime": 85.91340459338437,
+      "optimized_events_per_output_prime": 0.03223554335788916
+    },
+    {
+      "n": 1000000,
+      "baseline_python_line_events": 7245268,
+      "optimized_python_line_events": 1841,
+      "ratio": 3935.5067897881586,
+      "baseline_events_per_output_prime": 92.29875920405615,
+      "optimized_events_per_output_prime": 0.02345282682361334
+    }
+  ]
+}
